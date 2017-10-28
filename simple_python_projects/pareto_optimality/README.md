@@ -1,6 +1,6 @@
-#Pareto 
+# Pareto 
 
-###Space of estimates and trade-off curve
+### Space of estimates and trade-off curve
 
 ![GitHub Logo](images/space_of_estimates_and_trade_off_curve.png)
 
