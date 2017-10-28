@@ -1,0 +1,10 @@
+flake8
+tox
+cmd2
+flask
+Flask-Testing
+antlr4-python3-runtime
+coverage
+pytest
+pytest-flask
+pytest-cov
