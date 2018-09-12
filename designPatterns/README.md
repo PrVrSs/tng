@@ -25,3 +25,17 @@
 * https://nuancesprog.ru/p/1568/  (```TODO: поискать что-нибудь подробное на данную тему```)
 
 ### mission: 1 day - 1 pattern
+
+```
+11.09 - COR
+12.09 - Command
+```
+
+### languages sequence
+
+         
+  language   | pattern done
+:----------: | :----------:
+python       | 2
+js           | 0
+c++          | 0
