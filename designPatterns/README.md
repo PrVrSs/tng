@@ -29,6 +29,7 @@
 ```
 11.09 - COR
 12.09 - Command
+13.09 - mediator
 ```
 
 ### languages sequence
@@ -36,6 +37,6 @@
          
   language   | pattern done
 :----------: | :----------:
-python       | 2
+python       | 3
 js           | 0
 c++          | 0

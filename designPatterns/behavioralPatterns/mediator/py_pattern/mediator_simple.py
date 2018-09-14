@@ -4,69 +4,70 @@ import abc
 class Mediator(metaclass=abc.ABCMeta):
 
     @abc.abstractmethod
-    def send(self, sender, msg):
-        pass
-
-    @abc.abstractmethod
-    def receive(self, mess):
+    def send(self, sender, msg: str=''):
         pass
 
 
 class Server(metaclass=abc.ABCMeta):
 
     def __init__(self, mediator: Mediator):
-        self._mediator = mediator
+        self._mediator: Mediator = mediator
+        self._name = ''
+
+    def receive(self, msg: str='', server=None) -> None:
+        print(f'{self._name} receive msg: {msg}. From {server}')
 
     @abc.abstractmethod
-    def send(self, mess):
+    def send(self, msg) -> None:
         pass
 
-    @abc.abstractmethod
-    def receive(self, mess):
-        pass
+    def __repr__(self):
+        return f'{self._name}'
 
 
-class MediatorA(Mediator):
+class ServersMediator(Mediator):
 
     def __init__(self):
         self._servers: list = []
 
-    def add_server(self, server: Server):
+    def add_server(self, server: Server) -> None:
         self._servers.append(server)
 
-    def send(self, sender, msg):
+    def send(self, sender: Server, msg: str='') -> None:
         for server in self._servers:
             if sender is not server:
-                pass
-
-    def react_server_a(self):
-        pass
-
-    def react_server_b(self):
-        pass
+                server.receive(msg, sender)
 
 
 class ServerA(Server):
 
-    def send(self, msg):
-        self._mediator.send(self, msg)
+    def __init__(self, mediator):
+        super(ServerA, self).__init__(mediator)
+        self._name = 'ServerA'
 
-    def receive(self, msg):
-        pass
+    def send(self, msg: str='') -> None:
+        self._mediator.send(self, msg)
 
 
 class ServerB(Server):
 
-    def send(self, mess):
-        pass
+    def __init__(self, mediator):
+        super(ServerB, self).__init__(mediator)
+        self._name = 'ServerB'
 
-    def receive(self, mess):
-        pass
+    def send(self, msg: str = '') -> None:
+        self._mediator.send(self, msg)
 
 
 def main():
-    pass
+    mediator: ServersMediator = ServersMediator()
+    server_a: Server = ServerA(mediator)
+    server_b: Server = ServerB(mediator)
+    mediator.add_server(server_a)
+    mediator.add_server(server_b)
+    server_a.send('I\'m server A')
+    server_b.send('I\'m server B')
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
