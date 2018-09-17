@@ -30,6 +30,8 @@
 11.09 - COR
 12.09 - Command
 13.09 - mediator
+14.09 - state
+15.09 - memento
 ```
 
 ### languages sequence
@@ -37,6 +39,6 @@
          
   language   | pattern done
 :----------: | :----------:
-python       | 3
+python       | 5
 js           | 0
 c++          | 0
