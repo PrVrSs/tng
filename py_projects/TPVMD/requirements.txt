@@ -1,0 +1,9 @@
+numpy
+Cython==0.27.3
+wheel
+click
+prettytable
+bs4
+html5lib
+PyQt5
+requests
