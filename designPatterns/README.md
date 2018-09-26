@@ -24,21 +24,40 @@
 * Head First Design Patterns. A Brain-Friendly Guide
 * https://nuancesprog.ru/p/1568/  (```TODO: поискать что-нибудь подробное на данную тему```)
 
-### mission: 1 day - 1 pattern
+### Patterns list
 
-```
-11.09 - COR
-12.09 - Command
-13.09 - mediator
-14.09 - state
-15.09 - memento
-```
+```mission: 1 day - 1 pattern```
+
+#### Behavioral Patterns
+
+* [COR](behavioralPatterns/cor)
+* [Command](behavioralPatterns/command)
+* [mediator](behavioralPatterns/mediator)
+* [iterator](behavioralPatterns/iterator)
+* [state](behavioralPatterns/state)
+* [memento](behavioralPatterns/memento)
+* [observer](behavioralPatterns/observer)
+* [strategy](behavioralPatterns/strategy)
+* template
+* visitor
+* catalog
+* publish_subscribe
+* specificatio
+
+
+#### Structural Patterns
+
+*
+
+#### Creational Patterns
+
+*
 
 ### languages sequence
 
          
   language   | pattern done
 :----------: | :----------:
-python       | 5
+python       | 8
 js           | 0
 c++          | 0
