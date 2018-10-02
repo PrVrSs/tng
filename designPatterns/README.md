@@ -23,7 +23,7 @@
 * https://refactoring.guru/ru/design-patterns/chain-of-responsibility
 * Head First Design Patterns. A Brain-Friendly Guide
 * https://nuancesprog.ru/p/1568/  (```TODO: поискать что-нибудь подробное на данную тему```)
-* http://design-pattern.ru/
+* https://habr.com/post/61524/
 ### Patterns list
 
 ```mission: 1 day - 1 pattern```
