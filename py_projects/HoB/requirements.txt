@@ -1,0 +1,6 @@
+tox
+PySocks
+python-telegram-bot
+sqlalchemy
+pylint
+mypy_extensions

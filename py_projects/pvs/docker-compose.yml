@@ -1,0 +1,67 @@
+version: '3.7'
+networks:
+  web:
+    driver: bridge
+  internal:
+    driver: bridge
+
+services:
+  pvs:
+    restart: always
+    container_name: test_api
+    build:
+      context: ./pvs
+    tty: true
+    volumes:
+      - ".:/pvs"
+    networks:
+      - internal
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+
+  db:
+    restart: always
+    container_name: test_db
+    image: postgres:alpine
+
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    networks:
+      - internal
+    volumes:
+      - ${PWD}/.data/postgresql:/var/lib/postgresql/data
+      - ${PWD}/.:/docker-entrypoint-initdb.d
+
+  nginx:
+    restart: always
+    container_name: test_nginx
+    image: "nginx:stable"
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+    networks:
+      - web
+      - internal
+
+    env_file:
+      - .env
+
+#  info:
+#    build: .
+#    container_name: info
+#    volumes:
+#      - ./:/app
+#    command: gunicorn info.app:app -b :8080 --worker-class aiohttp.GunicornWebWorker --reload --access-logfile -
+#    ports:
+#      - "8080:8080"
+#    depends_on:
+#      - postgres
+#
+#
+#volumes:
+#  dbdata:

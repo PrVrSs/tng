@@ -1,0 +1,12 @@
+env/
+media/
+target/
+
+.mypy_cache/
+.tox/
+.pytest_cache/
+.idea/
+
+some.db
+
+.dmypy.json
