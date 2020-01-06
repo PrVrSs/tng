@@ -26,19 +26,17 @@
 * https://habr.com/post/61524/
 ### Patterns list
 
-```mission: 1 day - 1 pattern```
-
 #### Behavioral Patterns
 
-* [COR](behavioralPatterns/cor)
-* [Command](behavioralPatterns/command)
-* [mediator](behavioralPatterns/mediator)
-* [iterator](behavioralPatterns/iterator)
-* [state](behavioralPatterns/state)
-* [memento](behavioralPatterns/memento)
-* [observer](behavioralPatterns/observer)
-* [strategy](behavioralPatterns/strategy)
-* [template](behavioralPatterns/template)
+* [COR](behavioral/cor)
+* [Command](behavioral/command)
+* [mediator](behavioral/mediator)
+* [iterator](behavioral/iterator)
+* [state](behavioral/state)
+* [memento](behavioral/memento)
+* [observer](behavioral/observer)
+* [strategy](behavioral/strategy)
+* [template](behavioral/template)
 * visitor
 * publish_subscribe
 * specificatio

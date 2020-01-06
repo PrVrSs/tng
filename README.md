@@ -12,7 +12,7 @@
         * pareto optimality implementation
     * cpp
         * 
-        
+
 * useful piece of code for me
 * solution for various task
 * summary of the design patterns collected from different sources
