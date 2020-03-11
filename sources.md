@@ -9,17 +9,26 @@
 * [Gray Hat Python](https://repo.zenk-security.com/Magazine%20E-book/Gray%20Hat%20Python%20-%20Python%20Programming%20for%20Hackers%20and%20Reverse%20Engineers%20(2009).pdf)
 * [Black Hat Python](https://olinux.net/wp-content/uploads/2019/01/python.pdf)
 
+
 ## Articles
 
 * [Монады как паттерн переиспользования кода](https://habr.com/ru/post/490112/)
 * [Three Layer Haskell Cake](https://www.parsonsmatt.org/2018/03/22/three_layer_haskell_cake.html)
 * [Towards Neural Decompilation](https://arxiv.org/pdf/1905.08325.pdf)
+* [INTRODUCTION TO ARM ASSEMBLY BASICS](https://azeria-labs.com/writing-arm-assembly-part-1/)
+
 
 ## Video
 
 * [Fuzzing: The New Unit Testing](https://www.youtube.com/watch?v=FD30Qzd6ylk)
 * [Neuralfuzz: Neural Networks For Fuzzing Web Apps](https://www.youtube.com/watch?v=dps9P3G80ZE)
 
+
 ## Compilation
 
 * [Избранное: ссылки по reverse engineering](https://habr.com/ru/company/dsec/blog/334832/)
+
+
+## All other
+
+* [Fuzzing Survey](https://fuzzing-survey.org/)
