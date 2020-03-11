@@ -6,6 +6,8 @@
 * [Structure and Interpretation of Computer Programs](http://newstar.rinet.ru/~goga/sicp/sicp.pdf)
 * [Crafting Interpreters](http://craftinginterpreters.com/)
 * [Dragon book](http://linux-doc.ru/programming/assembler/book/compilers.pdf)
+* [Gray Hat Python](https://repo.zenk-security.com/Magazine%20E-book/Gray%20Hat%20Python%20-%20Python%20Programming%20for%20Hackers%20and%20Reverse%20Engineers%20(2009).pdf)
+* [Black Hat Python](https://olinux.net/wp-content/uploads/2019/01/python.pdf)
 
 ## Articles
 
