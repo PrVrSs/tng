@@ -16,6 +16,20 @@
 * [Three Layer Haskell Cake](https://www.parsonsmatt.org/2018/03/22/three_layer_haskell_cake.html)
 * [Towards Neural Decompilation](https://arxiv.org/pdf/1905.08325.pdf)
 * [INTRODUCTION TO ARM ASSEMBLY BASICS](https://azeria-labs.com/writing-arm-assembly-part-1/)
+* [Idiomatic monads in Rust](https://varkor.github.io/blog/2019/03/28/idiomatic-monads-in-rust.html)
+* [Finding Code That Explodes under Symbolic Evaluation](https://unsat.cs.washington.edu/papers/bornholt-sympro.pdf)
+* [Just Fuzz It: Solving Floating-Point Constraints using Coverage-Guided Fuzzing](https://convolv.es/papers/2019/ESEC-FSE/JFS.pdf)
+* [Using SMT Solvers to Automate Chosen Ciphertext Attacks](https://eprint.iacr.org/2019/958.pdf)
+* [Billions and Billions of Constraints: Whitebox Fuzz Testing in Production](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/main-may10.pdf)
+* [Model-Based Whitebox Fuzzing for Program Binaries](https://www.comp.nus.edu.sg/~abhik/pdf/ASE16.pdf)
+* [BaZINGA: Whitebox Fuzzing for Detecting Web Application Vulnerabilities](https://fenix.tecnico.ulisboa.pt/downloadFile/1126295043835790/Resumo%20alargado.pdf)
+* [HACKING USING SAT AND SMT SOLVERS](https://www.msoos.org/wordpress/wp-content/uploads/2018/09/EMF-camp-SAT-and-SMT-solvers-final.pdf)
+* [Fuzzing and Patch Analysis: SAGEly Advice](https://talos-intelligence-site.s3.amazonaws.com/production/document_files/files/000/000/061/original/Fuzzing_and_Patch_Analysis-SAGEly_Advice.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIXACIED2SPMSC7GA%2F20200313%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200313T075228Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=dccfd48c725e697349afce589e92123828404bd5dd643453f5edae166ba3f9f1)
+* [Practical Symbolic Execution and SATisfiability Module Theories (SMT) 101](http://deniable.org/reversing/symbolic-execution)
+* [Program-Adaptive Mutational Fuzzing](http://barbie.uta.edu/~xlren/Fuzzing/Program-Adaptive%20Mutational%20Fuzzing.pdf)
+* [Dynamic Program Analysis and Software Exploitation](http://phrack.org/issues/67/10.html)
+* [Grimoire: Synthesizing Structure while Fuzzing](https://www.usenix.org/system/files/sec19-blazytko.pdf)
+* [Evaluating Fuzz Testing](https://arxiv.org/pdf/1808.09700.pdf)
 
 
 ## Video
@@ -32,3 +46,4 @@
 ## All other
 
 * [Fuzzing Survey](https://fuzzing-survey.org/)
+* [DynamoRIO](https://dynamorio.org/)
