@@ -36,6 +36,7 @@
 
 * [Fuzzing: The New Unit Testing](https://www.youtube.com/watch?v=FD30Qzd6ylk)
 * [Neuralfuzz: Neural Networks For Fuzzing Web Apps](https://www.youtube.com/watch?v=dps9P3G80ZE)
+* [Solver-Aided Programming for All](https://www.youtube.com/watch?v=P7ItR7WgnOk)
 
 
 ## Compilation
