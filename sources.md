@@ -6,6 +6,7 @@
 * [Structure and Interpretation of Computer Programs](http://newstar.rinet.ru/~goga/sicp/sicp.pdf)
 * [Crafting Interpreters](http://craftinginterpreters.com/)
 * [Dragon book](http://linux-doc.ru/programming/assembler/book/compilers.pdf)
+* [Compiler Design in C](https://holub.com/compiler)
 * [Gray Hat Python](https://repo.zenk-security.com/Magazine%20E-book/Gray%20Hat%20Python%20-%20Python%20Programming%20for%20Hackers%20and%20Reverse%20Engineers%20(2009).pdf)
 * [Black Hat Python](https://olinux.net/wp-content/uploads/2019/01/python.pdf)
 
@@ -30,7 +31,7 @@
 * [Dynamic Program Analysis and Software Exploitation](http://phrack.org/issues/67/10.html)
 * [Grimoire: Synthesizing Structure while Fuzzing](https://www.usenix.org/system/files/sec19-blazytko.pdf)
 * [Evaluating Fuzz Testing](https://arxiv.org/pdf/1808.09700.pdf)
-
+* [Understanding SAT by Implementing a Simple SAT Solver in Python](https://sahandsaba.com/understanding-sat-by-implementing-a-simple-sat-solver-in-python.html)
 
 ## Video
 
@@ -48,3 +49,4 @@
 
 * [Fuzzing Survey](https://fuzzing-survey.org/)
 * [DynamoRIO](https://dynamorio.org/)
+* [sanity](https://www.sanity.io/blog/why-we-wrote-yet-another-parser-compiler)
