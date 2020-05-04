@@ -32,6 +32,7 @@
 * [Grimoire: Synthesizing Structure while Fuzzing](https://www.usenix.org/system/files/sec19-blazytko.pdf)
 * [Evaluating Fuzz Testing](https://arxiv.org/pdf/1808.09700.pdf)
 * [Understanding SAT by Implementing a Simple SAT Solver in Python](https://sahandsaba.com/understanding-sat-by-implementing-a-simple-sat-solver-in-python.html)
+* [Fuzzing Firefox with WebIDL](https://hacks.mozilla.org/2020/04/fuzzing-with-webidl/)
 
 ## Video
 
@@ -44,6 +45,11 @@
 
 * [Избранное: ссылки по reverse engineering](https://habr.com/ru/company/dsec/blog/334832/)
 
+## Courses
+
+* [6.824: Distributed Systems](https://pdos.csail.mit.edu/6.824/)   
+    * [lectures](https://www.youtube.com/channel/UC_7WrbZTCODu1o_kfUMq88g/videos)
+* [6.858: Computer Systems Security](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/)
 
 ## All other
 
