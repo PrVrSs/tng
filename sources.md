@@ -33,6 +33,7 @@
 * [Evaluating Fuzz Testing](https://arxiv.org/pdf/1808.09700.pdf)
 * [Understanding SAT by Implementing a Simple SAT Solver in Python](https://sahandsaba.com/understanding-sat-by-implementing-a-simple-sat-solver-in-python.html)
 * [Fuzzing Firefox with WebIDL](https://hacks.mozilla.org/2020/04/fuzzing-with-webidl/)
+* [Introduction to Architecture](https://tianpan.co/notes/145-introduction-to-architecture)
 
 ## Video
 
