@@ -45,6 +45,7 @@
 ## Compilation
 
 * [Избранное: ссылки по reverse engineering](https://habr.com/ru/company/dsec/blog/334832/)
+* [Посоветуйте, что почитать. Часть 2](https://habr.com/ru/company/dsec/blog/503130/)
 
 ## Courses
 
