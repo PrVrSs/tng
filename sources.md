@@ -52,6 +52,8 @@
 * [6.824: Distributed Systems](https://pdos.csail.mit.edu/6.824/)   
     * [lectures](https://www.youtube.com/channel/UC_7WrbZTCODu1o_kfUMq88g/videos)
 * [6.858: Computer Systems Security](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/)
+* [Static Program Analysis](https://cs.au.dk/~amoeller/spa/)
+
 
 ## All other
 
