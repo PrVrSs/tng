@@ -9,6 +9,7 @@
 * [Compiler Design in C](https://holub.com/compiler)
 * [Gray Hat Python](https://repo.zenk-security.com/Magazine%20E-book/Gray%20Hat%20Python%20-%20Python%20Programming%20for%20Hackers%20and%20Reverse%20Engineers%20(2009).pdf)
 * [Black Hat Python](https://olinux.net/wp-content/uploads/2019/01/python.pdf)
+* [Engineering a compiler 2nd edition](https://github.com/lighthousand/books/blob/master/Engineering%20A%20Compiler%202nd%20Edition%20by%20Cooper%20and%20Torczon.pdf)
 
 
 ## Articles
