@@ -27,7 +27,7 @@ PACKAGES = find_packages(exclude=['tests', 'tests.*'])
 
 REQUIRES = [
     'aiofiles==0.4.0',
-    'aiohttp==3.5.4',
+    'aiohttp==3.8.1',
     'aiopg==0.16.0',
     'click==7.0',
     'gunicorn',
